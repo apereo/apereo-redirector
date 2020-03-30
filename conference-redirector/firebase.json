@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ] ,
+    "redirects": [ {
+      "source" : "/**",
+      "destination" : "https://na.eventscloud.com/website/6430/home/",
+      "type" : 302
+    } ]
+  }
+}
+
